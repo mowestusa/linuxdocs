@@ -1,0 +1,8 @@
+Fedora Tips
+===========
+
+Swap ESC and CAPS LOCK Function in Wayland
+------------------------------------------
+dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
+
+
