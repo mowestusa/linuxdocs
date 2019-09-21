@@ -1,0 +1,14 @@
+Git Tips
+========
+mowest <mowestusa@yahoo.com>
+001, 9/20/2019
+
+Push a Local Repo to GitHub Repo
+--------------------------------
+    1. Create a new repo on Github (the place I plan to push too) without initializing a README or other options at this time.
+    2. After committing changes to the local repo it is time to add the remote repo on GitHub to the settings of the local repo.
+    3. From the GitHub website use the +copy+ command to get the URL for the GitHub repo.
+    4. Run = +git remote add origin _remoteGitHubrepoURL_+
+    5. +git remote -v+ verifies that the remote repo on GitHub is now linked with the local repo on the computer.
+    6. +git push origin master+ this command syncs the local repo to the remote repo on GitHub.
+
