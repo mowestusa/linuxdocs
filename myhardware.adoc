@@ -1,16 +1,16 @@
-My Hardware
-===========
+= My Hardware
+
 mowest <mowestusa@yahoo.com>
 001, 9/22/2019
 
-How to Obtain System Info
--------------------------
-+inxi -F+
+=== How to Obtain System Info
+
+++inxi -F++
 
 * The above command will print out all of the important system information that you may need. It was not installed by default on Fedora 31 Workstation.
 
-Dell Optiplex 390
------------------
+=== Dell Optiplex 390
+
 * CPU = Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
 * RAM = 2GB,Non-ECC,1333MHz DDR3
 * GPU = Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)
@@ -22,5 +22,20 @@ Dell Optiplex 390
 * SATA = Intel Corporation 6 Series/C200 Series Chipset Family Desktop SATA Controller (rev 04)
 * Ethernet controller = Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
 
-
+=== HP ENVY m7-u109dx "Half-Top"
+* HP ENVY Notebook m7-u109dx
+* CPU = Intel® Core™ i7-7500U (2.7 GHz, up to 3.5 GHz, 4 MB cache, 2 cores)
+* RAM = 16 GB DDR4-2133 SDRAM (2 x 8 GB)
+* GPU = NVIDIA® GeForce® 940MX (2 GB DDR3L dedicated) and Intel® HD Graphics 620 (Kaby Lake GT2) / NV118
+* Hard drive = 1 TB 7200 rpm SATA
+* Optical drive = SuperMulti DVD burner
+* Keyboard = Full-size island-style backlit keyboard with numeric keypad
+* Pointing device = HP Imagepad with multi-touch gesture support
+* Wireless connectivity = 802.11ac (2x2) and Bluetooth® 4.0 combo
+* Network interface = Integrated 10/100/1000 Gigabit Ethernet LAN
+* Expansion slots = 1 multi-format SD media card reader
+* External ports = 1 HDMI; 1 headphone/microphone combo; 1 RJ-45; 1 USB 3.1 Gen 1 (Data transfer only); 3 USB 3.1 Gen 1 (Data transfer only)
+* Power supply type = 65 W AC power adapter
+* Battery type = 3-cell, 41 Wh Li-ion
+* Audio features = Bang & Olufsen with 2 speakers
 

@@ -1,10 +1,10 @@
-Fedora Links to Documentation
-=============================
+= Fedora Links to Documentation
+
 mowest <mowestusa@yahoo.com>
 001, 9/20/2019
 
-dconf Documentation
--------------------
+=== dconf Documentation
+
 In order to get my preferred of having the ESC and CAPS LOCK function reversed, I needed to use a +dconf write...+ command which can be found at <<fedoratips.adoc, fedoratips.adoc>>.
 
 General Documentation:
@@ -13,7 +13,7 @@ https://wiki.gnome.org/Projects/dconf
 More Indepth Documentation:
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/configuration-overview-gsettings-dconf
 
-Install Packages for Playing Multimedia
----------------------------------------
+=== Install Packages for Playing Multimedia
+
 https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/
 

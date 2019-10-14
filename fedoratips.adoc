@@ -1,17 +1,15 @@
-Fedora Tips
-===========
+= Fedora Tips
 
-Swap ESC and CAPS LOCK Function in Wayland
-------------------------------------------
+
+=== Swap ESC and CAPS LOCK Function in Wayland
+
 dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
 
-Remove Touchscreen Support in Fedora Workstation Gnome Running Wayland
-----------------------------------------------------------------------
+=== Remove Touchscreen Support in Fedora Workstation Gnome Running Wayland
+
 1. +modprobe -r hid_multitouch+
 2. I had to create a .conf file under +/etc/modprobe.d/+
 3. I struggled at first to create the .conf file because it would not allow me to use an _ character in the name. When I created a file called "hidmultitouch.conf" that worked fine.
 4. The .conf file has the following single line: +blacklist hid_multitouch+
 5. This seems to work fine on the HP Envy with the cracked screen after a reboot. No changes seemed to take affect until after the reboot.
 6. It is reported on some forums that this method does not work on Dell XPS systems because it disables the touchpad as well, but that does not seem to be the case on the HP Envy.
-
-
