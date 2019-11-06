@@ -1,0 +1,27 @@
+= Fedora-Doc Git Tips
+=== Sync Your Fork Pagure Repo with Fedora's Master
+1. Add main Fedora repo to your local fork on your local machine
+++git remote add upstream https:fedorahttps://pagure.io/fedora-docs/quick-docs.git++ (As example)
+2. Sync the Fedora master repo with your fork on your local machine
+++git pull upstream master++
+3. Sync your now up to date local repo with your remote Pagure fork
+++git push origin master++
+- This last step only worked when I used the ssh url with my Pagure fork
+
+=== Change Your local Pagure Repo to ssh
+1. Check what url your repo is using
+++git remote -v++
+2. Set your local Pagure Repo to use ssh
+++git remote set-url origin ssh://git@pagure.io/forks/mowest/fedora-docs/quick-docs.git++
+- Originally, I could not push to my Pagure fork from my local machine when I used the git https url that is offered in the web interface for my fork.
+- Of course for this to work you need to upload the ssh key for your local machine to your Pagure account.
+
+=== FranciscoD's Git Workflow for Fedora-Docs
+1. ++git clone/pull++ -> update repo
+2. ++git branch <branch name>++ to make a new branch for the WIP
+3. make changes, run ./build.sh && ./preview.sh -> check preview
+4. ++git add++
+5. ++git commit++
+6. ++git push origin <branch name>++
+7. open PR (pull request of your WIP branch) On Pagure
+- FranciscoD creates a branch to keep his local master clean and the final copy. He uses a different branch for each page he wants to edit so that he can keep the master clean until the edit is ready to be pushed to the Fedora-Docs Pagure master with a pull request.
