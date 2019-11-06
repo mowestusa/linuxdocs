@@ -1,0 +1,4 @@
+= Mowest Personal Documentation Files
+
+The following files are a collection of documentation files to gather all the documentation and tips that I have learned in administerings my Linux installs. Most of it is of little use to the general Linux user because they address my specific installs and workflows.
+
