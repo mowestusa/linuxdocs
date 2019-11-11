@@ -1,0 +1,8 @@
+= Freedombox Tips
+== Syncthing on Fedora
+1. +sudo dnf install syncthing+
+2. +systemctl --user enable --now syncthing.service+
+3. +systemctl --user start syncthing.service+
+4. Go to localhost:8384 for the web ui
+-  http:https://src.fedoraproject.org/rpms/syncthing[Instructions Found Here]
+
