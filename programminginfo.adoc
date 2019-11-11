@@ -1,0 +1,6 @@
+= Programming Info
+== Scheme
+- Books:
+  - "Structure and Interpretation of Computer Programs" (best resource)
+  - "Teach yourself Scheme in Fixnum Days" (quick intro)
+  
